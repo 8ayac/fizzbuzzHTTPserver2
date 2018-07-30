@@ -1,0 +1,3 @@
+[submodule "fizzbuzzHTTPserver"]
+	path = fizzbuzzHTTPserver
+	url = git://github.com/8ayac/fizzbuzzHTTPserver.git
