@@ -6,4 +6,4 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -o fizz
 FROM scratch
 WORKDIR /fizzbuzz
 COPY --from=builder /go/src/github.com/8ayac/fizzbuzzHTTPserver/fizzbuzz .
-ENTRYPOINT ["/fizzbuzz"]
+ENTRYPOINT ["/fizzbuzz/fizzbuzz"]
